@@ -241,7 +241,7 @@ LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
                    warm_start=False)
 ```
 ### Testing step (give new data and test algo efficienccy)
- ```
+```
 loregaccuracy=logreg.score(x_test,y_test)
 loregaccuracy*100
 
@@ -258,9 +258,9 @@ logregpred
 Output:
 array([1, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0,
        1, 0, 1, 1, 0, 0, 0, 1, 0], dtype=int64)
- ```
- ### compare right vs wrong predictions
- y_test has actual answer from 0 to 40 of different diseses and x_test has what it actually predicted 
+```
+### compare right vs wrong predictions
+y_test has actual answer from 0 to 40 of different diseses and x_test has what it actually predicted 
 Here its comparing those 2 to know how many matches and how many do not
 ```
 conmat=confusion_matrix(y_test,logregpred)
