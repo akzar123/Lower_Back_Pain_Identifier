@@ -111,6 +111,8 @@ Replace normal with 1 and abnormal with 0
 sb.countplot(data['Class_att'])
 ```
 ![](Images/countplot.png)
+
+
 1 represents the patients with no back pain and 0 represents the patients with back pain. This dataset has more records of patients with back pain.
 ### To coount prognosis instances
 ```
