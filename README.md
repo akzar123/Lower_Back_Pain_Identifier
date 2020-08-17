@@ -280,7 +280,7 @@ pickle.dump(model_name,file_name)
 ### Loading model
 This model can be used again in future by importing, for analysing similar dataset without having to do all the above steps.
 ```
-loaded_model=pickle.load(open('symptomIdentifier.pkl','rb'))
+loaded_model=pickle.load(open('LBP.pkl','rb'))
 ```
 ### Using loaded model
 ```
