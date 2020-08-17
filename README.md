@@ -1,4 +1,4 @@
-# Symptoms Checker using Machine Learning
+# Lower back pain identifier
 The kind of back pain that follows heavy lifting or exercising too hard is often caused by muscle strain. But sometimes back pain can be related to a disc that bulges or ruptures.Identify possible conditions and predicts it is abnormal or normal.
 
 This dataset is downloaded from Kaggle and the link is mentioned below: https://www.kaggle.com/sammy123/lower-back-pain-symptoms-dataset
@@ -240,7 +240,7 @@ LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
                    random_state=None, solver='lbfgs', tol=0.0001, verbose=0,
                    warm_start=False)
 ```
- ### Testing step (give new data and test algo efficienccy)
+### Testing step (give new data and test algo efficienccy)
  ```
 loregaccuracy=logreg.score(x_test,y_test)
 loregaccuracy*100
