@@ -4,7 +4,7 @@ The kind of back pain that follows heavy lifting or exercising too hard is often
 This dataset is downloaded from Kaggle and the link is mentioned below: https://www.kaggle.com/sammy123/lower-back-pain-symptoms-dataset
 
 The steps included in this analysis are:
-
+```
 1.Data Collection
 2.Data Analysis
 3.Data Visualization
@@ -12,7 +12,7 @@ The steps included in this analysis are:
 5.Algorithm selection
 6.Prediction
 7.Saving the Model
-
+```
 ### Importing Libraries
 ```
 import pandas as pd
